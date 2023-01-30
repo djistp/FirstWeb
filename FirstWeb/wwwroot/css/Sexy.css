@@ -1,0 +1,45 @@
+﻿body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite !important;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, button, ol, p, h1 {
+    margin: 10px 0;
+    text-align: center;
+}
+ol {
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: decimal;
+}
+
+
+img {
+   height:500px;
+}
+
+div {
+    text-align: center;
+   
+    margin: 0 auto;
+}
+
+
+grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center
+}
